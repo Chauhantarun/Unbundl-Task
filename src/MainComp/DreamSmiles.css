@@ -262,7 +262,8 @@
 /* ======================
    320px MOBILE
 ====================== */
-@media (max-width: 420px) {
+/* @media (max-width: 420px) {
+
   .dream-smiles {
     padding: 0;
   }
@@ -277,30 +278,33 @@
     line-height: 1.15;
     letter-spacing: 0;
     margin-bottom: 18px;
+    padding: 10px;
   }
 
   .dream-content p {
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 20px;
+     padding: 10px;
   }
 
   .aligner-card {
     width: 100%;
-    padding: 16px;
+    padding: 6px;
     border-radius: 14px;
   }
 
-  /* Stack image below content */
   .card-content {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
   }
 
   .card-left {
-    width: 100%;
+    width: 200px;
   }
 
   .card-left h3 {
@@ -341,7 +345,7 @@
   }
 
   .card-image {
-    width: 90px;
+    width: 100px;
   }
 
   .learn-more {
@@ -353,4 +357,4 @@
   .learn-more span {
     font-size: 20px;
   }
-}
+} */
