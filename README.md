@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ShopHub – React Product Listing
 
 A responsive product listing application built with React that fetches data from the DummyJSON API and provides interactive features such as search, sorting, accordion panels, and tab switching between grid and list views.
@@ -214,3 +215,6 @@ npm run dev
 ## Author
 
 Built using React and DummyJSON API.
+=======
+# Unbundl-Task
+>>>>>>> adbc305c3d8222ee1faccbe2eb0a2fbfc0e8fbd5
