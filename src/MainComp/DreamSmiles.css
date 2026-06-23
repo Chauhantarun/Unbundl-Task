@@ -1,0 +1,356 @@
+:root {
+  --purple: #8d63e6;
+  --text: #232323;
+}
+
+.dream-smiles {
+  background: #edf3f7;
+  padding: 76px 0;
+}
+
+.dream-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+/* ======================
+   LEFT CONTENT
+====================== */
+
+.dream-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.dream-content h2 {
+  margin: 0 0 28px;
+
+  font-size: 40px;
+  line-height: 1.05;
+  font-weight: 800;
+  color: var(--text);
+
+  letter-spacing: -1.5px;
+}
+
+.dream-content p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #444;
+  margin-bottom: 24px;
+}
+
+/* ======================
+   CARD
+====================== */
+
+.aligner-card {
+  width: 460px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 24px;
+
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card-left {
+  flex: 1;
+}
+
+.card-left h3 {
+  margin: 0 0 22px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #313131;
+}
+
+.price-area {
+  margin-bottom: 20px;
+}
+
+.old-price {
+  display: block;
+  color: #666;
+  text-decoration: line-through;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.new-price-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.new-price-row span {
+  color: #555;
+  font-size: 18px;
+}
+
+.new-price-row strong {
+  color: var(--purple);
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.price-area small {
+  color: #7f7f7f;
+  font-size: 14px;
+}
+
+.card-left ul {
+  list-style: none;
+  padding: 0;
+  margin: 28px 0 0;
+}
+
+.card-left li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  margin-bottom: 14px;
+
+  color: #444;
+  font-size: 15px;
+}
+
+.card-left li svg {
+  color: #56c78b;
+  flex-shrink: 0;
+}
+
+/* ======================
+   IMAGE
+====================== */
+
+.card-image {
+  width: 130px;
+  flex-shrink: 0;
+}
+
+.card-image img {
+  width: 100%;
+  display: block;
+}
+
+/* ======================
+   FOOTER LINK
+====================== */
+
+.learn-more {
+  margin-top: 80px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  /* top: -50px; */
+  text-decoration: none;
+  color: var(--purple);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.learn-more span {
+  font-size: 24px;
+}
+
+/* ======================
+   TABLET
+====================== */
+
+@media (max-width: 992px) {
+  .dream-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .dream-content {
+    max-width: 100%;
+  }
+
+  .aligner-card {
+    width: 100%;
+  }
+
+  .dream-content h2 {
+    font-size: 22px;
+  }
+  .dream-content p {
+    font-size: 14px;
+  }
+}
+
+/* ======================
+   MOBILE
+====================== */
+
+@media (max-width: 768px) {
+  .dream-smiles {
+    padding: 0px 0;
+  }
+
+  .dream-container {
+    padding: 0 20px;
+    gap: 30px;
+  }
+
+  .dream-content h2 {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+
+  .dream-content p {
+    font-size: 15px;
+  }
+  .card-left li {
+    font-size: 13px;
+  }
+  .aligner-card {
+    padding: 0px;
+    border-radius: 16px;
+  }
+  .card-content {
+    gap: 0px;
+  }
+
+  .card-left h3 {
+    font-size: 16px;
+  }
+
+  .old-price {
+    font-size: 12px;
+  }
+  .new-price-row span {
+    font-size: 14px;
+  }
+  .new-price-row strong {
+    font-size: 16px;
+  }
+
+  .card-image {
+    width: 80px;
+  }
+
+  .learn-more {
+    font-size: 14px;
+  }
+}
+ .card-left ul {
+    margin-top: 20px;
+  }
+
+  .card-left li {
+    font-size: 10px;
+    margin-bottom: 12px;
+    text-align: left;
+  }
+/* ======================
+   320px MOBILE
+====================== */
+@media (max-width: 220px) {
+  .dream-smiles {
+    padding: 0;
+  }
+
+  .dream-container {
+    padding: 0px;
+    gap: 24px;
+  }
+
+  .dream-content h2 {
+    font-size: 28px;
+    line-height: 1.15;
+    letter-spacing: 0;
+    margin-bottom: 18px;
+  }
+
+  .dream-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .aligner-card {
+    width: 100%;
+    padding: 16px;
+    border-radius: 14px;
+  }
+
+  /* Stack image below content */
+  .card-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .card-left {
+    width: 100%;
+  }
+
+  .card-left h3 {
+    font-size: 12px;
+    margin-bottom: 18px;
+  }
+
+  .old-price {
+    font-size: 13px;
+  }
+
+  .new-price-row {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .new-price-row span {
+    font-size: 14px;
+  }
+
+  .new-price-row strong {
+    font-size: 14px;
+  }
+
+  .price-area small {
+    font-size: 12px;
+  }
+
+  .card-left ul {
+    margin-top: 20px;
+  }
+
+  .card-left li {
+    font-size: 12px;
+    margin-bottom: 12px;
+    text-align: left;
+  }
+
+  .card-image {
+    width: 90px;
+  }
+
+  .learn-more {
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .learn-more span {
+    font-size: 20px;
+  }
+}

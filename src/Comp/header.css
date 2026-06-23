@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+.offer-header {
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+} /* ======================= TOP SECTION ======================= */
+.header-top {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 74px;
+  background: #fff;
+}
+.logo {
+  height: 28px;
+  width: auto;
+  display: block;
+} /* ======================= CALL BUTTON ======================= */
+.call-btn {
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 50%;
+  background: #8c5ce6;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.call-btn svg {
+  font-size: 15px;
+} /* ======================= OFFER BAR ======================= */
+.offer-strip {
+  height: 28px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(199, 224, 242, 1) 0%,
+    rgba(207, 240, 196, 1) 100%
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.03);
+}
+.offer-strip p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+  font-family: Arial, sans-serif;
+}
+.old-price-header {
+  color: rgba(118, 137, 137, 1);
+  text-decoration: line-through;
+  margin: 0 2px;
+}
+.new-price-header {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+} /* ======================= MOBILE ======================= */
+@media (max-width: 768px) {
+  .header-top {
+    height: 52px;
+    padding: 0 18px;
+  }
+  .logo {
+    height: 24px;
+  }
+  .call-btn {
+    width: 32px;
+    height: 32px;
+  }
+  .offer-strip {
+    height: 26px;
+    padding: 0 10px;
+  }
+  .offer-strip p {
+    font-size: 11px;
+    white-space: nowrap;
+  }
+}
