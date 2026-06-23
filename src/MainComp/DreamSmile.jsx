@@ -59,7 +59,7 @@ const DreamSmiles = () => {
 
             <div className="card-image">
               <img
-                src="../src/img/3.png"
+                src="/img/3.png"
                 alt="Whistle Aligners"
               />
                <a href="/" className="learn-more">
