@@ -22,6 +22,11 @@
   }
 
   body { font-family: var(--font-body); color: var(--body); background: #fff; }
+  .main-contain{
+    max-width: 1640px;
+  width: 100%;
+  margin: 0 auto; /* center */
+  }
 
   /* ── HERO ── */
   .hero {

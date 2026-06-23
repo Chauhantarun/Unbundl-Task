@@ -92,7 +92,8 @@ export default function WhistleLanding() {
 
   return (
     <>
-<Header/>
+<div className="main-contain">
+  <Header/>
       {/* ── HERO ── */}
       <section className="hero" aria-label="Hero - Invisible Aligners">
         <div className="hero-content">
@@ -371,6 +372,7 @@ export default function WhistleLanding() {
       </section>
 
      <Footer/>
+</div>
     </>
   );
 }
