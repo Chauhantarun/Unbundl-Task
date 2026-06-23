@@ -32,7 +32,7 @@ const Footer = () => {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img className="footer-img" src="../src/img/20.png" alt="Instagram" />
+    <img className="footer-img" src="../public/img/20.png" alt="Instagram" />
   </a>
 
   <a
@@ -42,7 +42,7 @@ const Footer = () => {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img className="footer-img" src="../src/img/21.png" alt="Facebook" />
+    <img className="footer-img" src="../public/img/21.png" alt="Facebook" />
   </a>
 
   <a
@@ -52,7 +52,7 @@ const Footer = () => {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img className="footer-img" src="../src/img/22.png" alt="X" />
+    <img className="footer-img" src="../public/img/22.png" alt="X" />
   </a>
 
             </div>

@@ -38,48 +38,48 @@ const results = [
   {
     concern: "Gaps",
     duration: "8 months",
-    beforeImg: "../src/img/4.jpg",
-    afterImg: "../src/img/5.jpg",
+    beforeImg: "../public/img/4.jpg",
+    afterImg: "../public/img/5.jpg",
   },
   {
     concern: "Crooked Teeth",
     duration: "8 months",
-    beforeImg: "../src/img/6.jpg",
-    afterImg: "../src/img/7.jpg",
+    beforeImg: "../public/img/6.jpg",
+    afterImg: "../public/img/7.jpg",
   },
   {
     concern: "Open Bite",
     duration: "8 months",
-    beforeImg: "../src/img/8.jpg",
-    afterImg: "../src/img/9.jpg",
+    beforeImg: "../public/img/8.jpg",
+    afterImg: "../public/img/9.jpg",
   },
   {
     concern: "Protruding Teeth",
     duration: "8 months",
-    beforeImg: "../src/img/10.jpg",
-    afterImg: "../src/img/11.jpg",
+    beforeImg: "../public/img/10.jpg",
+    afterImg: "../public/img/11.jpg",
   },
 ];
 const whyCards = [
   {
     title: "Custom-made & invisible",
     desc: "Tailored for your teeth and smile with a clear, discreet appearance.",
-    img: "../src/img/12.png",
+    img: "../public/img/12.png",
   },
   {
     title: "Predictable results",
     desc: "Advanced 3D modeling and AI-technology for precise planning and predictable results.",
-    img: "../src/img/13.png",
+    img: "../public/img/13.png",
   },
   {
     title: "Partnership with Clove Dental",
     desc: "Led by highly experienced Orthodontists of Clove Dental and Whistle that have corrected over 2 lakh smiles.",
-    img: "../src/img/14.png",
+    img: "../public/img/14.png",
   },
   {
     title: "Unlimited Aligners*",
     desc: "Unlimited aligners and doctor consults at no extra cost.",
-    img: "../src/img/15.png",
+    img: "../public/img/15.png",
   },
 ];
 
@@ -220,9 +220,9 @@ export default function WhistleLanding() {
           <h2>The Whistle Difference</h2>
           <div className="diff-items">
             {[
-              { icon: "../src/img/24.png", title: "Next-Gen", desc: "Crafted with top-notch 3D printing, laser tech, and Zendura FLX material." },
-              { icon: "../src/img/25.png", title: "Hassle-Free", desc: "Predictable, comfortable & lifestyle-friendly for an easy smile transformation." },
-              { icon: "../src/img/23.png", title: "Transparent Pricing", desc: "Everything's included – from scans to aligners, doctor consults, and retainers – no hidden costs." },
+              { icon: "../public/img/24.png", title: "Next-Gen", desc: "Crafted with top-notch 3D printing, laser tech, and Zendura FLX material." },
+              { icon: "../public/img/25.png", title: "Hassle-Free", desc: "Predictable, comfortable & lifestyle-friendly for an easy smile transformation." },
+              { icon: "../public/img/23.png", title: "Transparent Pricing", desc: "Everything's included – from scans to aligners, doctor consults, and retainers – no hidden costs." },
             ].map((d, i) => (
               <div className="diff-item" key={i}>
                 <div className="diff-icon"><span style={{ fontSize: "1.6rem" }}><img
@@ -240,7 +240,7 @@ export default function WhistleLanding() {
         <div className="diff-right">
   <div className="diff-img">
     <img
-      src="../src/img/16.png"
+      src="../public/img/16.png"
       alt="Difference"
       className="diff-image"
     />
@@ -305,7 +305,7 @@ export default function WhistleLanding() {
           <div className="video-placeholder" role="button" aria-label="Play how it works video" tabIndex={0}>
             
     <img
-      src="../src/img/17.png"
+      src="../public/img/17.png"
       alt="Difference"
       className="step-image"
     />
@@ -324,7 +324,7 @@ export default function WhistleLanding() {
         <div className="doctor-right">
           <div className="doctor-img-placeholder" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
              <img
-      src="../src/img/18.png"
+      src="../public/img/18.png"
       alt="Difference"
       className="doctor-image"
     />
@@ -338,7 +338,7 @@ export default function WhistleLanding() {
 
   <div className="testimonial-scroll">
     <img
-      src="../src/img/19.gif"
+      src="../public/img/19.gif"
       alt="Testimonials"
       className="testi-image"
     />
