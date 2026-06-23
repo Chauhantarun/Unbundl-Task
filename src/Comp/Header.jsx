@@ -8,7 +8,7 @@ const Header = () => {
       <div className="header-top">
         <div className="logo-wrapper">
           <img
-            src="../public/img/1.png"
+            src="/img/1.png"
             alt="Whistle and Smile"
             className="logo"
           />
