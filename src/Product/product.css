@@ -321,3 +321,33 @@ body{
 }
 
 }
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  padding: 10px 16px;
+  border: none;
+  background: #f2f2f2;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.pagination button:hover {
+  background: #ddd;
+}
+
+.active-page {
+  background: #000 !important;
+  color: #fff;
+}
+
+.pagination button:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
