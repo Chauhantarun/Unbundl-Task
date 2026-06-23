@@ -221,7 +221,7 @@
     font-size: 13px;
   }
   .aligner-card {
-    padding: 0px;
+    padding: 10px;
     border-radius: 16px;
   }
   .card-content {
@@ -262,7 +262,7 @@
 /* ======================
    320px MOBILE
 ====================== */
-@media (max-width: 220px) {
+@media (max-width: 420px) {
   .dream-smiles {
     padding: 0;
   }
